@@ -1,5 +1,5 @@
 {
-  "name": "social-analyzer",
+  "name": "pisocial-analyzer",
   "version": "2.0.32",
   "description": "Advanced Social Media Profiles Finder and String Analysis Tool",
   "main": "app.js",

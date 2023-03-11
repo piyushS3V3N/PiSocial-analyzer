@@ -1,6 +1,6 @@
 version: "3" 
 services:
-  social-analyzer:
+  pisocial-analyzer:
     build: .
     ports:
       - "9005:9005"

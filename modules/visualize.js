@@ -3,7 +3,7 @@ import helper from './helper.js'
 
 async function visualize_force_graph (req, detected, type) {
   try {
-    const graph = new QBIxora('Social-Analyzer', false)
+    const graph = new QBIxora('pisocial-analyzer', false)
     const temp_filtered = detected.filter(item => item.status === 'good')
     if (temp_filtered.length > 0) {
       if (req.body.group) {
@@ -70,7 +70,7 @@ async function visualize_force_graph (req, detected, type) {
       })
     }
 
-    const ret_graph = graph.create_graph('#ixora-graph', 'Ixora random nodes exmaple', 'Search Box', 'Search in extracted patterns', 'https://github.com/qeeqbox/ixora', 'Qeeqbox-ixora', ['search', 'tooltip'], 10, 100, graph.graph, 'object', undefined, undefined)
+    const ret_graph = graph.create_graph('#ixora-graph', 'Ixora random nodes exmaple', 'Search Box', 'Search in extracted patterns', 'https://github.com/piyushS3V3N/ixora', 'piyushS3V3N-ixora', ['search', 'tooltip'], 10, 100, graph.graph, 'object', undefined, undefined)
     return ret_graph
   } catch (err) {
     helper.verbose && console.log(err)

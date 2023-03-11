@@ -78,7 +78,7 @@ const dict_json_path = slash(path.join(__dirname, '..', 'data', 'dict.json'))
 const countries_json_path = slash(path.join(__dirname, '..', 'data', 'names.json'))
 const public_graph_path = slash(path.join(__dirname, '..', 'public', 'graph.html'))
 
-let temp_ixora = new QBIxora('Social-Analyzer', false)
+let temp_ixora = new QBIxora('pisocial-analyzer', false)
 temp_ixora.save_base_html(public_graph_path)
 temp_ixora = null
 

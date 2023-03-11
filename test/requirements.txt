@@ -1,1 +1,1 @@
-social-analyzer
+pisocial-analyzer

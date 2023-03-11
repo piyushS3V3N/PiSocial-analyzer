@@ -1,14 +1,14 @@
-.. image:: https://raw.githubusercontent.com/qeeqbox/social-analyzer/main/readme/socialanalyzerlogo_.png
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/socialanalyzerlogo_.png
 
-Social-Analyzer - API, CLI & Web App for analyzing & finding a person's profile across social media websites. It includes different string analysis and detection modules, you can choose which combination of modules to use during the investigation process.
+pisocial-analyzer - API, CLI & Web App for analyzing & finding a person's profile across social media websites. It includes different string analysis and detection modules, you can choose which combination of modules to use during the investigation process.
 
-The detection modules utilize a rating mechanism based on different detection techniques, which produces a rate value that starts from 0 to 100 (No-Maybe-Yes). This module intended to have less false positive, and it's documented in this `Wiki <https://github.com/qeeqbox/social-analyzer/wiki>`_ link
+The detection modules utilize a rating mechanism based on different detection techniques, which produces a rate value that starts from 0 to 100 (No-Maybe-Yes). This module intended to have less false positive, and it's documented in this `Wiki <https://raw.githubusercontent.com/piyushS3V3N/Pipisocial-analyzer/wiki>`_ link
 
 The analysis and public extracted information from this OSINT tool could help in investigating profiles related to suspicious or malicious activities such as `cyberbullying <https://en.wikipedia.org/wiki/Wikipedia:Cyberbullying>`_, `cybergrooming <https://de.wikipedia.org/wiki/Cyber-Grooming>`_, `cyberstalking <https://en.wikipedia.org/wiki/Cyberstalking>`_, and `spreading misinformation <https://en.wikipedia.org/wiki/Misinformation>`_.
 
 This project is *"currently used by some law enforcement agencies in countries where resources are limited"*.
 
-`Social Analyzer is in a league of its own and is a very impressive tool that I thoroughly recommend for Digital Investigators and OSINT practitioners` - by `Joseph Jones, Founder of Strategy Nord, Unita Insight and OS2INT <https://os2int.com/toolbox/investigating-usernames-with-social-analyzer>`_.
+`Social Analyzer is in a league of its own and is a very impressive tool that I thoroughly recommend for Digital Investigators and OSINT practitioners` - by `Joseph Jones, Founder of Strategy Nord, Unita Insight and OS2INT <https://os2int.com/toolbox/investigating-usernames-with-pisocial-analyzer>`_.
 
 So·cial Me·di·a
 ===============
@@ -19,7 +19,7 @@ Security Testing
 .. code:: bash
 
     -------------------------------------              ---------------------------------
-    |        Security Testing           |              |        Social-Analyzer        |
+    |        Security Testing           |              |        pisocial-analyzer        |
     -------------------------------------              ---------------------------------
     |   Passive Information Gathering   |     <-->     |   Find Social Media Profiles  |
     |                                   |              |                               |
@@ -28,7 +28,7 @@ Security Testing
 
 Find Profile CLI (Fast)
 =======================
-.. image:: https://raw.githubusercontent.com/qeeqbox/social-analyzer/main/readme/cli.gif
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/cli.gif
 
 Features
 ========
@@ -36,7 +36,7 @@ Features
 - Find profile using multiple techniques (HTTPS library & Webdriver)
 - Multi layers detections (OCR, normal, advanced & special)
 - Visualized profile information using Ixora (Metadata & Patterns)
-- Metadata & Patterns extraction (Added from Qeeqbox osint project)
+- Metadata & Patterns extraction (Added from piyushS3V3N osint project)
 - Force-directed Graph for Metadata (Needs ExtractPatterns)
 - Search by top ranking, or by country (Alexa Ranking)
 - Profiles stats and static info (Category country)
@@ -59,34 +59,34 @@ Running Example (Simple)
 ========================
 .. code:: bash
 
-    pip3 install social-analyzer
-    python3 -m social-analyzer --username "johndoe" --metadata --top 100
+    pip3 install pisocial-analyzer
+    python3 -m pisocial-analyzer --username "johndoe" --metadata --top 100
 
 Running Example (Custom)
 ========================
 .. code:: bash
 
-    #install social-analyzer
-    pip3 install social-analyzer
+    #install pisocial-analyzer
+    pip3 install pisocial-analyzer
 
     #specific websites
-    python3 -m social-analyzer --username "johndoe" --websites "youtube pinterest tumblr"
+    python3 -m pisocial-analyzer --username "johndoe" --websites "youtube pinterest tumblr"
 
     #specific websites with metadata and extraction
-    python3 -m social-analyzer --username "johndoe" --websites "youtube pinterest tumblr" --metadata --extract --trim
+    python3 -m pisocial-analyzer --username "johndoe" --websites "youtube pinterest tumblr" --metadata --extract --trim
 
     #all websites with metadata, extraction, filter all profiles with all status
-    python3 -m social-analyzer --username "johndoe" --websites "all" --metadata --extract --trim --filter "all" --profile "all"
+    python3 -m pisocial-analyzer --username "johndoe" --websites "all" --metadata --extract --trim --filter "all" --profile "all"
 
     #Screenshot detected profiles
-    python3 -m social-analyzer --username "johndoe" --websites "cart" --logs --screenshots
+    python3 -m pisocial-analyzer --username "johndoe" --websites "cart" --logs --screenshots
 
 Running Example (as object)
 ===========================
 .. code:: bash
 
 	from importlib import import_module
-	SocialAnalyzer = import_module("social-analyzer").SocialAnalyzer()
+	SocialAnalyzer = import_module("pisocial-analyzer").SocialAnalyzer()
 	results = SocialAnalyzer.run_as_object(username="johndoe",silent=True)
 	print(results)
 
@@ -95,11 +95,11 @@ Running Example (as object with specific websites, metadata and extraction)
 .. code:: bash
 
 	from importlib import import_module
-	SocialAnalyzer = import_module("social-analyzer").SocialAnalyzer()
+	SocialAnalyzer = import_module("pisocial-analyzer").SocialAnalyzer()
 	results = SocialAnalyzer.run_as_object(username="johndoe", websites="youtube pinterest tumblr", metadata=True, extract=True, silent=True)
 	print(results)
 
-Help (python3 -m social-analyzer --h)
+Help (python3 -m pisocial-analyzer --h)
 =====================================
 .. code:: bash
 
@@ -117,7 +117,7 @@ Help (python3 -m social-analyzer --h)
     --countries   select websites by country or countries separated by space as: us br ru
     --top         select top websites as 10, 50 etc...[--websites is not needed]
     --extract     Extract profiles, urls & patterns if possible
-    --metadata    Extract metadata if possible (pypi QeeqBox OSINT)
+    --metadata    Extract metadata if possible (pypi piyushS3V3N OSINT)
     --trim        Trim long strings
     --gui         Reserved for a gui (Not implemented)
     --cli         Reserved for a cli (Not needed)
@@ -134,7 +134,7 @@ Help (python3 -m social-analyzer --h)
 Open in Cloud Shell
 ===================
 .. image:: https://img.shields.io/static/v1?label=%3E_&message=Open%20in%20Cloud%20Shell&color=3267d6&style=flat-square
-   :target: https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://github.com/qeeqbox/social-analyzer&tutorial=README.md
+   :target: https://ssh.cloud.google.com/cloudshell/editor?cloudshell_git_repo=https://raw.githubusercontent.com/piyushS3V3N/Pipisocial-analyzer&tutorial=README.md
 
 Special Detections
 ==================
@@ -172,7 +172,7 @@ Some News\Articles
 ==================
 - `5 Open-Source Intelligence (OSINT) GitHub Repositories For Every Security Analyst (Cyber Security) <https://twitter.com/GithubProjects/status/1395205169617547266>`_
 
-- You can use social-analyzer in the `BlackArch <https://blackarch.org/>`_ penetration testing distribution by installing `blackarch-social <https://blackarch.org/social.html>`_
+- You can use pisocial-analyzer in the `BlackArch <https://blackarch.org/>`_ penetration testing distribution by installing `blackarch-social <https://blackarch.org/social.html>`_
 
 Articles
 ========
@@ -180,32 +180,32 @@ Articles
 
 Other projects
 ==============
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//chameleon.png
-    :target: https://github.com/qeeqbox/chameleon
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//chameleon.png
+    :target: https://github.com/piyushS3V3N/chameleon
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//honeypots.png
-    :target: https://github.com/qeeqbox/honeypots
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//honeypots.png
+    :target: https://github.com/piyushS3V3N/honeypots
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//analyzer.png
-    :target: https://github.com/qeeqbox/analyzer
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//analyzer.png
+    :target: https://github.com/piyushS3V3N/analyzer
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//osint.png
-    :target: https://github.com/qeeqbox/osint
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//osint.png
+    :target: https://github.com/piyushS3V3N/osint
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//url-sandbox.png
-    :target: https://github.com/qeeqbox/url-sandbox
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//url-sandbox.png
+    :target: https://github.com/piyushS3V3N/url-sandbox
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//mitre-visualizer.png
-    :target: https://github.com/qeeqbox/mitre-visualizer
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//mitre-visualizer.png
+    :target: https://github.com/piyushS3V3N/mitre-visualizer
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//woodpecker.png
-    :target: https://github.com/qeeqbox/woodpecker
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//woodpecker.png
+    :target: https://github.com/piyushS3V3N/woodpecker
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//docker-images.png
-    :target: https://github.com/qeeqbox/docker-images
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//docker-images.png
+    :target: https://github.com/piyushS3V3N/docker-images
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//seahorse.png
-    :target: https://github.com/qeeqbox/seahorse
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//seahorse.png
+    :target: https://github.com/piyushS3V3N/seahorse
 
-.. image:: https://raw.githubusercontent.com/qeeqbox/.github/main/data//rhino.png
-    :target: https://github.com/qeeqbox/rhino
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/.github/main/data//rhino.png
+    :target: https://github.com/piyushS3V3N/rhino
