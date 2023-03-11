@@ -1,4 +1,4 @@
-<p align="center"> <img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/socialanalyzerlogo_.png"></p>
+<p align="center"> <img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/master/readme/socialanalyzerlogo_.png"></p>
 
 Social Analyzer - API, CLI, and Web App for analyzing & finding a person's profile across +1000 social media \ websites. It includes different analysis and detection modules, and you can choose which modules to use during the investigation process.
 
@@ -12,16 +12,16 @@ The analysis and public extracted information from this OSINT tool could help in
 Websites and applications that enable users to create and share content or to participate in social networking - Oxford Dictionary
 
 ## Structure
-<img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/structure.png">
+<img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/master/readme/structure.png">
 
 
 ## APP (Preferred!)
 Standard localhost WEB APP url: http://0.0.0.0:9005/app.html
 
-<img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/intro_fast.gif" style="max-width:768px"/>
+<img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/master/readme/intro_fast.gif" style="max-width:768px"/>
 
 ## CLI 
-<img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/cli.gif" style="max-width:768px"/>
+<img src="https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/master/readme/cli.gif" style="max-width:768px"/>
 
 ## Features
 - String & name analysis (Permutations and Combinations)
@@ -204,7 +204,7 @@ Setting:
 - Download this project from GitHub and treat it as a security project
 - If you want your website to be excluded from this project list, please reach out to me
 - This tool is meant to be used locally, not as a service (It does not have any Access Control)
-- For issues related to modules that end with -private or under the private group ![](https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/modules.png), reach out directly to me (do not open an issue on GitHub)
+- For issues related to modules that end with -private or under the private group ![](https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/master/readme/modules.png), reach out directly to me (do not open an issue on GitHub)
 
 ## Other Projects
-[![](https://github.com/piyushS3V3N/.github/blob/main/data/analyzer.png)](https://github.com/piyushS3V3N/analyzer) [![](https://github.com/piyushS3V3N/.github/blob/main/data/chameleon.png)](https://github.com/piyushS3V3N/chameleon) [![](https://github.com/piyushS3V3N/.github/blob/main/data/honeypots.png)](https://github.com/piyushS3V3N/honeypots) [![](https://github.com/piyushS3V3N/.github/blob/main/data/osint.png)](https://github.com/piyushS3V3N/osint) [![](https://github.com/piyushS3V3N/.github/blob/main/data/url-sandbox.png)](https://github.com/piyushS3V3N/url-sandbox) [![](https://github.com/piyushS3V3N/.github/blob/main/data/mitre-visualizer.png)](https://github.com/piyushS3V3N/mitre-visualizer) [![](https://github.com/piyushS3V3N/.github/blob/main/data/woodpecker.png)](https://github.com/piyushS3V3N/woodpecker) [![](https://github.com/piyushS3V3N/.github/blob/main/data/docker-images.png)](https://github.com/piyushS3V3N/docker-images) [![](https://github.com/piyushS3V3N/.github/blob/main/data/seahorse.png)](https://github.com/piyushS3V3N/seahorse) [![](https://github.com/piyushS3V3N/.github/blob/main/data/rhino.png)](https://github.com/piyushS3V3N/rhino) [![](https://github.com/piyushS3V3N/.github/blob/main/data/raven.png)](https://github.com/piyushS3V3N/raven) [![](https://github.com/piyushS3V3N/.github/blob/main/data/image-analyzer.png)](https://github.com/piyushS3V3N/image-analyzer)
+[![](https://github.com/piyushS3V3N/.github/blob/master/data/analyzer.png)](https://github.com/piyushS3V3N/analyzer) [![](https://github.com/piyushS3V3N/.github/blob/master/data/chameleon.png)](https://github.com/piyushS3V3N/chameleon) [![](https://github.com/piyushS3V3N/.github/blob/master/data/honeypots.png)](https://github.com/piyushS3V3N/honeypots) [![](https://github.com/piyushS3V3N/.github/blob/master/data/osint.png)](https://github.com/piyushS3V3N/osint) [![](https://github.com/piyushS3V3N/.github/blob/master/data/url-sandbox.png)](https://github.com/piyushS3V3N/url-sandbox) [![](https://github.com/piyushS3V3N/.github/blob/master/data/mitre-visualizer.png)](https://github.com/piyushS3V3N/mitre-visualizer) [![](https://github.com/piyushS3V3N/.github/blob/master/data/woodpecker.png)](https://github.com/piyushS3V3N/woodpecker) [![](https://github.com/piyushS3V3N/.github/blob/master/data/docker-images.png)](https://github.com/piyushS3V3N/docker-images) [![](https://github.com/piyushS3V3N/.github/blob/master/data/seahorse.png)](https://github.com/piyushS3V3N/seahorse) [![](https://github.com/piyushS3V3N/.github/blob/master/data/rhino.png)](https://github.com/piyushS3V3N/rhino) [![](https://github.com/piyushS3V3N/.github/blob/master/data/raven.png)](https://github.com/piyushS3V3N/raven) [![](https://github.com/piyushS3V3N/.github/blob/master/data/image-analyzer.png)](https://github.com/piyushS3V3N/image-analyzer)

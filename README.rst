@@ -1,4 +1,4 @@
-.. image:: https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/socialanalyzerlogo_.png
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/master/readme/socialanalyzerlogo_.png
 
 pisocial-analyzer - API, CLI & Web App for analyzing & finding a person's profile across social media websites. It includes different string analysis and detection modules, you can choose which combination of modules to use during the investigation process.
 
@@ -28,7 +28,7 @@ Security Testing
 
 Find Profile CLI (Fast)
 =======================
-.. image:: https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/main/readme/cli.gif
+.. image:: https://raw.githubusercontent.com/piyushS3V3N/pisocial-analyzer/master/readme/cli.gif
 
 Features
 ========
